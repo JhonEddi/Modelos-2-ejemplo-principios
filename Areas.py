@@ -1,20 +1,11 @@
-class Cuadradrilatero:
-		def operacion (b,h):
-			print "Ingrese valor de la base y luego la altura:";
-			if l!= None and h!=None:
-				return l*h;
-			return "No es posible";
+import math
 
-class Triangulo:
-		def operacion (b,h):
-			print "Ingrese valor de la base y luego la altura:";
-			if b!= None and h!=None:
-				return (b*h)/2;
-			return "No es posible";
+class area_Cuadrilatero:
+		def operacion (L):
+			area=L**2
+			return print ('El area es: ', area);
 
-def figura (figura,b,h):
-		if figura==1:
-			return Cuadradrilatero(b,h);
-		if figura==2:
-			return Triangulo(b,h);
-		return "No es posible realizar la accion";
+class area_Triangulo:
+		def operacion (b,h):
+			area=b*h/2
+			return print ('El area es: ', area);
